@@ -27,7 +27,7 @@ This project aims to extract tweets by different users or varied keywords at a s
 ## Function Description
 
 ### 1.Function Structure
-![Function Structure](url1 "Function Structure Demostration")
+![Function Structure](https://github.com/xujianzi/climate_change/blob/master/github_images/strcuture1.JPG "Function Structure Demostration")
 ### 2.Main fuction demostration
 #### 2.1. Extracting tweets by users:
 ```python
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     main()
 ```
 ### 4. Program running display
-
+![Program running display](https://github.com/xujianzi/climate_change/blob/master/github_images/running_display.gif "running.gif")
 ## Tweets Prepocessing
 
 ## Tweets Analysis
