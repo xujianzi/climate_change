@@ -164,7 +164,7 @@ To compare data in the comparable scale, I use the min_max normalization.
 
 ### 7.Spatial Analysis for people who concern about fire
 
-[Global Map](https://github.com/xujianzi/climate_change/blob/master/github_images/climate_tweets.jpg "Global map")
+![Global Map](https://github.com/xujianzi/climate_change/blob/master/github_images/climate_tweets.jpg "Global map")
 
 -----------------------------
 [Presses_screenshot]:gif
