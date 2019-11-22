@@ -119,7 +119,7 @@ Tweets are saved as two types: json and csv. To make it be better manituplated a
 
 ### 2.Tweets Information as csv.
 #### 2.1 The reports of 9 presses display
-![presses hist][Presses_hist]
+![presses hist](https://github.com/xujianzi/climate_change/blob/master/github_images/Climate%20mentions.png "Presses hist")
 
 ![Presses Tweets][Presses_screenshot]
 #### 2.2 The users tweets display
@@ -131,15 +131,15 @@ Clean data sets by keyword, release time and user information, and remove duplic
 ### 1.Amazon Rainforest fire hotspot by time
 The Data are aquired from the NASA fire spot map. The data collections are from August to October.
 
-![Fire map][Fire_Map]
+![Fire map](https://github.com/xujianzi/climate_change/blob/master/github_images/firespot.gif "Fire map.gif")
 
 ### 2.Presses time series analysis
 Long time period:
 
-![Press time series][Press_time_series]
+![Press time series](https://github.com/xujianzi/climate_change/blob/master/github_images/Press_time_series.png "Presses long period")
 Time period from August to October:
 
-![Press time series1][Press_time_series1]
+![Press time series1](https://github.com/xujianzi/climate_change/blob/master/github_images/Press_time_series1.png "Presses shot period")
 
 ### 3.Sentimental analysis and data normalization
 3.1 Sentimental Analysis
@@ -156,10 +156,10 @@ To compare data in the comparable scale, I use the min_max normalization.
      x = (x - min_x)/(max_x - min_x) 
 
 ### 4.Users time series analysis
-![users time series][users_time_series]
+![users time series](https://github.com/xujianzi/climate_change/blob/master/github_images/4.1.png "users time series")
 
 ### 5.Time series changes for presses 
-![Presses time series][Presses_time_series]
+![Presses time series](https://github.com/xujianzi/climate_change/blob/master/github_images/5.1.png "Presses time series")
 ### 6.Time series changes comaparison for presses and users
 
 ### 7.Spatial Analysis for people who concern about fire
@@ -169,10 +169,3 @@ To compare data in the comparable scale, I use the min_max normalization.
 -----------------------------
 [Presses_screenshot]:gif
 [Users_screenshot]:gif
-[Fire_Map]:https://github.com/xujianzi/climate_change/blob/master/github_images/firespot.gif "Fire map.gif"
-[Press_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/Press_time_series.png "Presses long period"
-[Press_time_series1]: https://github.com/xujianzi/climate_change/blob/master/github_images/Press_time_series1.png "Presses shot period"
-[Presses_hist]: https://github.com/xujianzi/climate_change/blob/master/github_images/Climate%20mentions.png "Presses hist"
-[Global_Map]: 
-[users_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/4.1.png "users time series"
-[Presses_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/5.1.png "Presses time series"
