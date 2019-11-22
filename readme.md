@@ -146,14 +146,20 @@ Time period from August to October:
 
 | Semantic value | Representation|
 |:--------:|:------------:|
-|1 | positive |
-| 0| netrual |
-|-1| nagative |
+| 1 | positive |
+| 0 | neutrual |
+|-1 | nagative |
+
+3.2 Data normalizaiton
+To compare data in the comparable scale, I use the min_max normalization.
+
+     x = (x - min_x)/(max_x - min_x) 
 
 ### 4.Users time series analysis
+![users time series][users_time_series]
 
 ### 5.Time series changes for presses 
-
+![Presses time series][Presses_time_series]
 ### 6.Time series changes comaparison for presses and users
 
 ### 7.Spatial Analysis for people who concern about fire
@@ -163,8 +169,10 @@ Time period from August to October:
 -----------------------------
 [Presses_screenshot]:gif
 [Users_screenshot]:gif
-[Fire_Map]:gif
-[Press_time_series]:
-[Press_time_series1]:
-[Presses_hist]:
-[Global_Map]:
+[Fire_Map]:https://github.com/xujianzi/climate_change/blob/master/github_images/firespot.gif "Fire map.gif"
+[Press_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/Press_time_series.png "Presses long period"
+[Press_time_series1]: https://github.com/xujianzi/climate_change/blob/master/github_images/Press_time_series1.png "Presses shot period"
+[Presses_hist]: https://github.com/xujianzi/climate_change/blob/master/github_images/Climate%20mentions.png "Presses hist"
+[Global_Map]: https://github.com/xujianzi/climate_change/blob/master/github_images/climate_tweets.jpg "Global map"
+[users_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/4.1.png "users time series"
+[Presses_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/5.1.png "Presses time series"
