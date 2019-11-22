@@ -109,8 +109,62 @@ if __name__ == "__main__":
     dir_name = r'E:\Gitfolder\climate_change1'
     main()
 ```
-### 4. Program running display
+### 4.Program running display
 ![Program running display](https://github.com/xujianzi/climate_change/blob/master/github_images/running_display.gif "running.gif")
+***
 ## Tweets Prepocessing
+> Note: The Tweets prepocessing and analysis is under Anaconda environment to achieve better interatction.
+### 1.Downloaded Tweets Discription
+Tweets are saved as two types: json and csv. To make it be better manituplated and analyzed with Pandas, numpy, and matplotlib. All types of data are converted to csv format and imported to the Jupyter Notebook.
 
+### 2.Tweets Information as csv.
+#### 2.1 The reports of 9 presses display
+![presses hist][Presses_hist]
+
+![Presses Tweets][Presses_screenshot]
+#### 2.2 The users tweets display
+![Users Tweets][Users_screenshot]
+### 3.Data clean
+Clean data sets by keyword, release time and user information, and remove duplicated irrelevant data. There are over 500 presses data and 20,000 users data left.
+***
 ## Tweets Analysis
+### 1.Amazon Rainforest fire hotspot by time
+The Data are aquired from the NASA fire spot map. The data collections are from August to October.
+
+![Fire map][Fire_Map]
+
+### 2.Presses time series analysis
+Long time period:
+
+![Press time series][Press_time_series]
+Time period from August to October:
+
+![Press time series1][Press_time_series1]
+
+### 3.Sentimental analysis and data normalization
+3.1 Sentimental Analysis
+
+| Semantic value | Representation|
+|:--------:|:------------:|
+|1 | positive |
+| 0| netrual |
+|-1| nagative |
+
+### 4.Users time series analysis
+
+### 5.Time series changes for presses 
+
+### 6.Time series changes comaparison for presses and users
+
+### 7.Spatial Analysis for people who concern about fire
+
+[Global Map][Global_Map]
+
+-----------------------------
+[Presses_screenshot]:gif
+[Users_screenshot]:gif
+[Fire_Map]:gif
+[Press_time_series]:
+[Press_time_series1]:
+[Presses_hist]:
+[Global_Map]:
