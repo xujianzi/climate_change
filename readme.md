@@ -164,7 +164,7 @@ To compare data in the comparable scale, I use the min_max normalization.
 
 ### 7.Spatial Analysis for people who concern about fire
 
-[Global Map][Global_Map]
+[Global Map](https://github.com/xujianzi/climate_change/blob/master/github_images/climate_tweets.jpg "Global map")
 
 -----------------------------
 [Presses_screenshot]:gif
@@ -173,6 +173,6 @@ To compare data in the comparable scale, I use the min_max normalization.
 [Press_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/Press_time_series.png "Presses long period"
 [Press_time_series1]: https://github.com/xujianzi/climate_change/blob/master/github_images/Press_time_series1.png "Presses shot period"
 [Presses_hist]: https://github.com/xujianzi/climate_change/blob/master/github_images/Climate%20mentions.png "Presses hist"
-[Global_Map]: https://github.com/xujianzi/climate_change/blob/master/github_images/climate_tweets.jpg "Global map"
+[Global_Map]: 
 [users_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/4.1.png "users time series"
 [Presses_time_series]: https://github.com/xujianzi/climate_change/blob/master/github_images/5.1.png "Presses time series"
