@@ -122,7 +122,7 @@ Tweets are saved as two types: json and csv. To make it be better manituplated a
 ![presses hist](https://github.com/xujianzi/climate_change/blob/master/github_images/Climate%20mentions.png "Presses hist")
 
 #### 2.2 The media tweets display
-![Presses Tweets]( 'Presses_Tweets')
+![Presses Tweets](https://github.com/xujianzi/climate_change/blob/master/github_images/media.gif "Presses_Tweets")
 ### 3.Data clean
 Clean data sets by keyword, release time and user information, and remove duplicated irrelevant data. There are over 500 presses data and 20,000 users data left.
 ***
