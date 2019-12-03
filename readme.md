@@ -165,6 +165,8 @@ To compare data in the comparable scale, I use the min_max normalization.
 
 ![Global Map](https://github.com/xujianzi/climate_change/blob/master/github_images/climate_tweets.jpg "Global map")
 
+
+### END
 -----------------------------
 [Presses_screenshot]:gif
 [Users_screenshot]:gif
