@@ -53,7 +53,27 @@ def get_user_timeline_tweets(self, num_tweets):
             if len(obj_tweets) >= num_tweets:
                 break
         return obj_tweets
-```   
+```  
+### 2.3. Streaming tweets by keywards:
+
+```python
+class TwitterStreamer():
+    '''
+    Class for streaming and processing tweets
+    '''
+    def __init__(self):
+        self.auth = TwitterAuthenticator().authenticate_twitter_app()
+
+    def stream_tweets(self, fetched_tweets_filename, tag_list):
+        
+        #This handles Twitter authentication and the connection ot the Twitter Streaming API
+        listener = TwitterListener(fetched_tweets_filename)
+        auth = self.auth
+        stream = Stream(auth, listener)
+
+        stream.filter(track=tag_list)
+```
+
 ---
 ## Tweets Extracting
 ### 1. Initialzation variables
